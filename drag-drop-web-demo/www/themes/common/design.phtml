@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>EB-LSP1</title>
+	<link rel="stylesheet" href="<?php echo $surface->FromCommon('design.css') ?>">
+<?php m\Ki::Flow('html-head') ?>
+</head>
+<body>
+<?php m\Ki::Flow('html-body-start') ?>
+
+<div id="construct">
+	<div id="header">
+		<h1>bob's demo site</h1>
+	</div>
+
+	<div id="main">
+<?php $surface->Show('stdout') ?>
+	</div>
+
+	<div id="footer">
+		<div>
+			<img src="<?php $surface->FromCommon('gfx/html5-logo.png') ?>" alt="HTML 5" />
+			<img src="<?php $surface->FromCommon('gfx/css3-logo.png') ?>" alt="CSS 3" />
+			<img src="<?php $surface->FromCommon('gfx/rarity-logo.png') ?>" alt="The type of pony everypony should know." />
+		</div>
+		<div>m[<?php echo m_exec_time() ?>]</div>
+		<div style="opacity:0.6;">background image &quot;magical morning ii&quot; by kokoszkaa [<a href="http://kokoszkaa.deviantart.com/art/magical-morning-II-378116265">link</a>]</div>
+	</div>
+</div>
+
+<?php m\Ki::Flow('html-body-end') ?>
+</body>
+</html>
