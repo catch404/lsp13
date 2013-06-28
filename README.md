@@ -27,11 +27,11 @@ Start the game server from your Terminal.
 
 	php game-start.php
 
-Start a catcher.
+Start a catcher in a NEW Terminal.
 
 	php player-catcher.php
 
-Start a pitcher.
+Start a pitcher in ANOTHER NEW Terminal.
 
 	php player-pitcher.php
 
